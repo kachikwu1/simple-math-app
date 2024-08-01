@@ -20,10 +20,16 @@
                 <option value="subtract">-</option>
                 <option value="multiply">*</option>
                 <option value="divide">/</option>
+                <option value="sqrt">√</option>
+                <option value="power">^</option>
             </select>
             <input type="number" id="num2" placeholder="Enter second number">
             <button onclick="performCalculation()">Calculate</button>
             <p id="result">Result: </p>
+            <div id="history">
+                <h3>Calculation History</h3>
+                <ul id="history-list"></ul>
+            </div>
         </section>
 
         <section id="about">
